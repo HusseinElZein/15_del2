@@ -11,9 +11,10 @@ public class Main {
         System.out.println("Indtast dit navn: ");
         String navn1 = sc.nextLine();
 
-        Spiller sp1 = new Spiller();
+        Spiller sp1 = new Spiller(navn1);
 
-        System.out.println(sp1.setName(navn1));
+
+        System.out.println(sp1.getName());
 
     }
 
