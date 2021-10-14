@@ -2,10 +2,10 @@ package Spil;
 
 public class Spiller {
 
-    private String name;
+    private String navn;
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String navn) {
+        this.navn = name;
     }
 
     public String getName() {
