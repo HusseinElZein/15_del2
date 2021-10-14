@@ -2,7 +2,6 @@ package Spil;
 
 public class Spiller {
 
-
     String name;
 
     public Spiller(String name) {
@@ -12,6 +11,5 @@ public class Spiller {
     public String getName() {
         return this.name;
     }
-
 
 }
