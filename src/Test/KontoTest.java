@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class KontoTest {
 
+
     @org.junit.jupiter.api.Test
 
     void setPenge1() {
