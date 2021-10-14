@@ -13,10 +13,23 @@ public class Konto {
 
     public void setPenge1(int penge1) {
         Konto.penge1 = Konto.penge1 + penge1;
+
+        if(Konto.penge1<0) {
+
+            Konto.penge1 = 0;
+        }
+
+
     }
 
     public void setPenge2(int penge2) {
         Konto.penge2 = Konto.penge2 + penge2;
+
+        if(Konto.penge2<0) {
+
+            Konto.penge2 = 0;
+        }
+
     }
 
 }
