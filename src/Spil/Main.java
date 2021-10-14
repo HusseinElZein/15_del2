@@ -23,10 +23,13 @@ public class Main {
 
         System.out.println();
 
-        Spiller sp1 = new Spiller(navn1);
-        Spiller sp2 = new Spiller(navn2);
+        Spiller sp1 = new Spiller();
+        Spiller sp2 = new Spiller();
         Konto konto1 = new Konto();
         Konto konto2 = new Konto();
+
+        sp1.setName(navn1);
+        sp2.setName(navn2);
 
         System.out.println("Velkommen " + sp1.getName() + " og " + sp2.getName() + "\n");
 
