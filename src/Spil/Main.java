@@ -28,15 +28,15 @@ public class Main {
         Konto konto1 = new Konto();
         Konto konto2 = new Konto();
 
-        sp1.setName(navn1);
-        sp2.setName(navn2);
+        sp1.setNavn(navn1);
+        sp2.setNavn(navn2);
 
-        System.out.println("Velkommen " + sp1.getName() + " og " + sp2.getName() + "\n");
+        System.out.println("Velkommen " + sp1.getNavn() + " og " + sp2.getNavn() + "\n");
 
 
         while (konto1.getPenge1() < 3000 && konto2.getPenge2() < 3000) {
 
-            System.out.print(sp1.getName() + " Kast med terningerne");
+            System.out.print(sp1.getNavn() + " Kast med terningerne");
 
             boolean again = true;
             while (again) {
@@ -91,7 +91,7 @@ public class Main {
                         konto1.setPenge1(-80);
                         System.out.println("Du har mødt en vareulv. Den spiste dine 80 kr. Du har nu " + konto1.getPenge1() + " kr.");
                         again = true;
-                        System.out.println(sp1.getName() + " får en ekstra tur: ");
+                        System.out.println(sp1.getNavn() + " får en ekstra tur: ");
                         break;
                     case 11:
                         konto1.setPenge1(-50);
@@ -108,13 +108,13 @@ public class Main {
                 break;
 
             if(konto1.getPenge1() ==0){
-                 System.out.println(sp1.getName() + " du er gået bankerot " );
+                 System.out.println(sp1.getNavn() + " du er gået bankerot " );
                 break;
             }
 
 
 
-            System.out.print(sp2.getName() + " Kast med terningerne");
+            System.out.print(sp2.getNavn() + " Kast med terningerne");
 
             boolean again1 = true;
             while (again1) {
@@ -171,7 +171,7 @@ public class Main {
                         konto2.setPenge2(-80);
                         System.out.println("Du har mødt en vareulv. Den spiste dine 80 kr. Du har nu " + konto2.getPenge2() + " kr.");
                         again1 = true;
-                        System.out.println(sp2.getName() + " får en ekstra tur: ");
+                        System.out.println(sp2.getNavn() + " får en ekstra tur: ");
                         break;
                     case 11:
                         konto2.setPenge2(-50);
@@ -188,14 +188,14 @@ public class Main {
                     break;
 
                  if(konto2.getPenge2() ==0){
-                     System.out.println(sp2.getName() + " du er gået bankerot " );
+                     System.out.println(sp2.getNavn() + " du er gået bankerot " );
                      break;}
             }
 
         if(konto1.getPenge1()> konto2.getPenge2()) {
-            System.out.println("Tillykke " + sp1.getName() +  "!!! Du har vundet spillet! ");
+            System.out.println("Tillykke " + sp1.getNavn() +  "!!! Du har vundet spillet! ");
         } else {
-            System.out.println("Tillykke " + sp2.getName() +  "!!! Du har vundet spillet! ");
+            System.out.println("Tillykke " + sp2.getNavn() +  "!!! Du har vundet spillet! ");
         }
 
         }

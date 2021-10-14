@@ -4,12 +4,12 @@ public class Spiller {
 
     private String navn;
 
-    public void setName(String navn) {
-        this.navn = name;
+    public void setNavn(String navn) {
+        this.navn = navn;
     }
 
-    public String getName() {
-        return this.name;
+    public String getNavn() {
+        return this.navn;
     }
 
 
