@@ -12,11 +12,11 @@ public class Konto {
     }
 
     public void setPenge1(int penge1) {
-        Spiller.penge1 = Spiller.penge1 + penge1;
+        Konto.penge1 = Konto.penge1 + penge1;
     }
 
     public void setPenge2(int penge2) {
-        Spiller.penge2 = Spiller.penge2 + penge2;
+        Konto.penge2 = Konto.penge2 + penge2;
     }
 
 }
