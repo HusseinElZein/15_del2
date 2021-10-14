@@ -111,7 +111,6 @@ public class Main {
 
 
 
-
             System.out.print(sp2.getName() + " Kast med terningerne");
 
             boolean again1 = true;
@@ -185,9 +184,9 @@ public class Main {
                 if (konto2.getPenge2() >= 3000)
                     break;
 
-                 if(konto2.getPenge2() ==0)
+                 if(konto2.getPenge2() ==0){
                      System.out.println(sp2.getName() + " du er gået bankerot " );
-                     break;
+                     break;}
             }
 
         if(konto1.getPenge1()> konto2.getPenge2()) {
