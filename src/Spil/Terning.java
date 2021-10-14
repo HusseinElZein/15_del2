@@ -5,6 +5,11 @@ public class Terning {
     private int terning;
     private static int terningSum1,terningSum2;
 
+
+    public String toString() {
+        return String.valueOf(terning);
+    }
+
     public String Terning1() {
         this.terning = (int) (Math.random()*11+2);
         terningSum1+=terning;
@@ -13,7 +18,7 @@ public class Terning {
             terningSum1 = terningSum1 - 12;
         }
 
-        return "har slået "+ terning + " \nDu står på felt "+ terningSum1;
+        return "har slået "+ toString() + " \nDu står på felt "+ terningSum1;
     }
 
     public static int getTerningSum1() {
@@ -28,7 +33,7 @@ public class Terning {
             terningSum2 = terningSum2 - 12;
         }
 
-        return "har slået "+ terning + " \nDu står på felt "+ terningSum2;
+        return "har slået "+ toString() + " \nDu står på felt "+ terningSum2;
     }
 
     public static int getTerningSum2() {

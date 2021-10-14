@@ -80,7 +80,7 @@ public class Main {
                         break;
                     case 9:
                         sp1.setPenge1(60);
-                        System.out.println("Du har leveret en pakke til Pizza Hut, og modtager " + sp1.getPenge1() + " kr.");
+                        System.out.println("Du har leveret en pakke til Pizza Hut, og modtager 60 kroner, du har nu" + sp1.getPenge1() + " kr.");
                         break;
                     case 10:
                         sp1.setPenge1(-80);
@@ -152,7 +152,8 @@ public class Main {
                         break;
                     case 9:
                         sp2.setPenge2(60);
-                        System.out.println("Du har leveret en pakke til Pizza Hut, og modtager " + sp2.getPenge2() + " kr.");
+                        System.out.println("Du har leveret en pakke til Pizza Hut, og modtager 60 kroner" +
+                                " nu har du" + sp2.getPenge2() + " kr.");
                         break;
                     case 10:
                         sp2.setPenge2(-80);
