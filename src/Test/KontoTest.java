@@ -17,7 +17,7 @@ class KontoTest {
     void setPenge2() {
 
         Spil.Konto konto2 = new Spil.Konto();
-        konto2.setPenge2(-2147483647);
+        konto2.setPenge2(-2147483648);
         int expectedResult = 0;
         assertEquals(expectedResult, konto2.getPenge2() );
     }
