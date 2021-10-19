@@ -1,1 +1,2 @@
-java -jar C:\Users\husse\Desktop\CDIO\15_del2\out\artifacts\15_del2_jar\15_del2.jar
+java -jar 15_del2.jar
+pause
